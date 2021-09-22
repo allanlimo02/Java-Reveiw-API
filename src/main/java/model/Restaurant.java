@@ -17,6 +17,8 @@ public class Restaurant {
         this.address = address;
         this.zipcode = zipcode;
         this.phone = phone;
+        this.website = "No website availed";
+        this.email = "No Email availed";
     }
     public Restaurant(String name, String address, String zipcode, String phone, String website, String email) {
         this.name = name;
